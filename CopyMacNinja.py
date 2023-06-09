@@ -1,5 +1,6 @@
 #It is used to copy the mac address of a random one of the connected devices on the open network.
-
+#Example Usage: python CopyMacNinja.py  -i wlan0 -r 192.168.1.1/24 
+#All responsibility belongs to the user!!
 from scapy.all import ARP, Ether, srp
 import random
 import optparse
